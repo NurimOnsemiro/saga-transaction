@@ -1,0 +1,20 @@
+{
+  "name": "saga-transaction",
+  "version": "1.0.0",
+  "description": "Saga transaction library",
+  "main": "./lib/index.js",
+  "scripts": {},
+  "keywords": [
+    "saga",
+    "transaction"
+  ],
+  "author": "remocon33@naver.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.5",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "neverthrow": "^6.1.0"
+  }
+}
