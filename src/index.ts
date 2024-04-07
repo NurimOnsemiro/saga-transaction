@@ -8,6 +8,10 @@ export interface ITransaction<T> {
     compensate: (args: T) => Promise<T>
 }
 
+/**
+ * Represents a Saga object that manages a series of transactions and handles any errors that occur during execution.
+ * @template T The type of arguments passed to the transactions.
+ */
 export class Saga<T> {
     private _transactions: ITransaction<T>[] = []
 
