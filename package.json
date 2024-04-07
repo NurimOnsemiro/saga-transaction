@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Saga transaction library",
   "main": "./lib/index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [
     "saga",
     "transaction"

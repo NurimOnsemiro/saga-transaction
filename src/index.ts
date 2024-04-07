@@ -56,10 +56,9 @@ export class Saga<T> {
             try {
                 args = await this._transactions[i].compensate(args);
             } catch (e) {
-                return err(e as Error);
+                // nothing to do here
             }
         }
-
         return err(error);
     }
 }
