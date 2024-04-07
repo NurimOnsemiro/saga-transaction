@@ -13,7 +13,7 @@ The `TAsyncResult` type is a Promise-based result type that represents the outco
 Here's an example of how to use the `Saga` class:
 
 ```typescript
-import { Saga, ITransaction } from './saga';
+import { Saga, ITransaction } from 'saga-transaction';
 
 // Define your transactions
 const depositTransaction: ITransaction<number> = {
