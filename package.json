@@ -10,7 +10,12 @@
     "saga",
     "transaction"
   ],
-  "author": "remocon33@naver.com",
+  "author": "NurirmOnsemiro <emocon33@naver.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NurimOnsemiro/saga-transaction.git"
+  },
+  "homepage": "https://github.com/NurimOnsemiro/saga-transaction.git",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.5",
